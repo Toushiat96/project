@@ -1,0 +1,96 @@
+.body{
+    width: 1440px;
+    height: 735px;
+    background-color: white;
+}
+
+.btn{
+ 
+    width: 138px;
+    height: 47px;
+    top: 20px;
+    left: 1096px;
+    background: #E3F5FF;
+    border: 2px solid #6463DF;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.nav-link{
+    font-weight: 400;
+    font-family: Passion One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 50px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #222222;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+font-size: 62px;
+line-height: 84px;
+}
+p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+}
+.main ul{
+margin-left:300px;
+margin-top :50px;
+}
+.main ul li{
+    display: inline-block;
+    padding-left: 10px;
+}
+.main ul li a {
+	text-decoration: none;
+	padding: 5px 15px;
+	font-size: 24px;
+	font-weight: 400;
+	transition: 0.3s ease-in-out;
+	color: black;
+}
+.main ul li a.docs{
+    border: 2px solid #6463DF;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.main ul li a.market{
+    background: #6463DF;
+    border: 2px solid #6463DF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: white;
+}
+
+.social-icon li {
+	display: inline-block;
+}
+
+.social-icon ul{
+margin-left: 420px;
+}
+.social-icon ul li img{
+
+    padding: 5px 15px;
+}
+img{
+width:80%;
+}
+
+@media only screen and (max-width: 600px){
+    .main ul{
+        margin-left:5px;
+    }
+    .social-icon ul{
+        margin-left: 5px;
+        }
+}
